@@ -11,15 +11,14 @@ UIScrollView、UITableView、UICollectionView、UIWebView、WKWebView
   willDisplayCell:(UITableViewCell *)cell 
 forRowAtIndexPath:(NSIndexPath *)indexPath;
 
-
 告诉代理对象将为特定行设置单元格格式
+
 -(NSIndexPath *)tableView:(UITableView *)tableView 
  willSelectRowAtIndexPath:(NSIndexPath *)indexPath;
  
-
 告诉代理对象即将选中特定行
+
 -(CGFloat)tableView:(UITableView *)tableView 
 heightForRowAtIndexPath:(NSIndexPath *)indexPath;
-
 
 询问代理对象在某个特定位置的行的高度
